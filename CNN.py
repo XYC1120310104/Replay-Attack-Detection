@@ -434,9 +434,7 @@ def trainModel(model):
     #model.save('./parameter/lcnn_blackman_frames400_adadelta_epochs20.h5', model)
     return model
 
-#model = load_model('./parameter/10.68_My_lightcnn_frame400_blackman_epoch20_PowSpec.h5')
-#model = load_model('./parameter/9.15_My_lightcnn_frame400_blackman_epoch5_retrain_PowSpec.h5')
-#model = load_model('./parameter/LightCnn_blackman_frames400_adam_epochs50_batch32.h5')
+#model = load_model('./9.15_My_lightcnn_frame400_blackman_epoch5_retrain_PowSpec.h5')
 model = block_unit()
 
 print model.summary()
