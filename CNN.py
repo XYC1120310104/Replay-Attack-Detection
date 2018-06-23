@@ -431,7 +431,7 @@ def trainModel(model):
                             callbacks=cb,
                             workers=4)
     
-    #model.save('./parameter/lcnn_blackman_frames400_adadelta_epochs20.h5', model)
+    #model.save('./lcnn_blackman_frames400_adam_epochs20.h5', model)
     return model
 
 #model = load_model('./9.15_My_lightcnn_frame400_blackman_epoch5_retrain_PowSpec.h5')
