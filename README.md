@@ -1,7 +1,7 @@
 # Replay-Attack-Detection
-Automatic Speaker Verification Spoof Countermeasure\n
-CNN.py ------  Botteleneck feature extracted Network\n
-LayerExtactor.py   ------  extract   bottleneck feature\n
+Automatic Speaker Verification Spoof Countermeasure
+CNN.py ------  Botteleneck feature extracted Network
+LayerExtactor.py   ------  extract bottleneck feature
 sigprocess.py   ----- speech process 
 calcmfcc.py ------ calaculate  mfcc(speech feature)
 listwav.py ------- cepstrum feature Normalization
